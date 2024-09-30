@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - JeniusAcademy</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../Homepage/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+      <a href="#" class="logo">JeniusAcademy</a>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Register</a></li>
+        <li><a href="#">Subscription</a></li>
+        <li><a href="#">Testimony</a></li>
+        <li><a href="#">Learn</a></li>
+      </ul>
+    </div>
+  </nav> <div class="navbar">
+    <div class="container">
+      <a href="#" class="logo">
+        <div>
+            <img src="../Homepage/img/logo.png" alt="">
+        </div>
+        JeniusAcademy
+    </a>
+      <ul class="nav-links">
+        <li><a href="../Homepage/home.html">Home</a></li>
+        <li><a href="../Registerpage/register.html">Register</a></li>
+        <li><a href="../Subscriptionpage/subscription.html">Subscription</a></li>
+        <li><a href="../Testimonypage/testimonypage.html">Testimony</a></li>
+        <li><a href="../Learnpage/learnpage.html">Learn</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Register Form -->
+  <main>
+    <div class="container">
+      <h1>Register</h1>
+      <form id="registerForm" onsubmit="return validateForm()">
+
+        <div class="input-container">
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName">
+          <span id="firstNameError" class="error"></span>
+        </div>
+        
+        <div class="input-container">
+          <label for="surname">Surname:</label>
+          <input type="text" id="surname" name="surname">
+          <span id="surnameError" class="error"></span>
+        </div>
+
+        <div class="input-container">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <span id="emailError" class="error"></span>
+        </div>
+
+        <div class="input-container">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone">
+          <span id="phoneError" class="error"></span>
+        </div>
+
+        <div class="input-container">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password">
+          <span id="passwordError" class="error"></span>
+        </div>
+
+        <div class="input-container">
+          <label for="confirmPassword">Confirm Password:</label>
+          <input type="password" id="confirmPassword" name="confirmPassword">
+          <span id="confirmPasswordError" class="error"></span>
+        </div>
+
+
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 JeniusAcademy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

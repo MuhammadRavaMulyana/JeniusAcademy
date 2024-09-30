@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+
+  /* Testimony Content */
+  main {
+    padding: 250px 0;
+    text-align: center;
+    background-color: #E5F1E9;
+  }
+  
+  .testimony-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .testimony-card {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .testimony-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-header {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .testi-img {
+    display: flex;
+    justify-content: center;
+    background-image: url("");
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #0056D2;
+  }
+  
+  .card-header h2 {
+    color: #0056D2;
+    margin: 10px 0 5px;
+  }
+  
+  .package {
+    font-weight: bold;
+    color: #FFCC00;
+  }
+  
+  .card-body {
+    padding: 10px 0;
+  }
+  
+  .testimony {
+    font-style: italic;
+    color: #555;
+    text-align: center;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #0056D2;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }

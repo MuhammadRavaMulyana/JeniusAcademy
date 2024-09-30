@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+  }
+  
+  main .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .container h1{
+    margin-bottom: 50px;
+  }
+
+  /* Subscription Content */
+  main {
+    padding: 200px 0;
+    text-align: center;
+    background-color: #E5F1E9;
+  }
+
+  .subscription-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .subscription-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    height: 350px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-content {
+    text-align: center;
+    gap: 50px;
+  }
+
+  .subscription-card h2 {
+    color: #0056D2;
+    text-align: center;
+  }
+  
+  .price {
+    font-size: 24px;
+    color: #FFCC00;
+    margin: 10px 0;
+  }
+  
+  .subscription-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .subscription-card ul li {
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    /* margin-top: 100px; */
+    background-color: #0056D2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #0041a3;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+    /* margin-top: 50px; */
+  }

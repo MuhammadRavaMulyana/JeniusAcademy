@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - JeniusAcademy</title>
+  <link rel="stylesheet" href="Homepage/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <div class="navbar">
+    <div class="container">
+      <a href="#" class="logo">
+        <div>
+            <img src="./img/logo.png" alt="">
+        </div>
+        JeniusAcademy
+    </a>
+      <ul class="nav-links">
+        <li><a href="Homepage/home.html">Home</a></li>
+        <li><a href="Registerpage/register.html">Register</a></li>
+        <li><a href="Subscriptionpage/subscription.html">Subscription</a></li>
+        <li><a href="Testimonypage/testimonypage.html">Testimony</a></li>
+        <li><a href="Learnpage/learnpage.html">Learn</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div>
+        <img src="img/cewek_laptop.png" alt="">
+    </div>
+    <div class="container">
+      <h1>Fun Learning, Bright Futures</h1>
+      <p>Join JeniusAcademy for a fun and effective learning experience. We offer a wide range of resources and tools to help you excel at every level.</p>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <main>
+    <!-- Showcase Section -->
+    <section class="showcase">
+      <div class="container">
+        <h2>Brief Showcase of Each Feature</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <img src="img/interactivetools.jpg" alt="Interactive Tools">
+            <h3>Interactive Tools</h3>
+            <p>Engage with our dynamic learning tools designed for better understanding and retention. These tools include quizzes, flashcards, and interactive simulations that make learning fun and effective.</p>
+          </div>
+          <div class="feature-card">
+            <img src="img/personalizedtutoring.jpg" alt="Personalized Tutoring">
+            <h3>Personalized Tutoring</h3>
+            <p>Get one-on-one tutoring sessions tailored to your specific needs and learning style. Our expert tutors are here to help you excel and achieve your academic goals.</p>
+          </div>
+          <div class="feature-card">
+            <img src="img/diverseexercises.jpg" alt="Diverse Exercises">
+            <h3>Diverse Exercises</h3>
+            <p>Practice makes perfect with our wide range of exercises and try-outs that cover various subjects and difficulty levels. Keep track of your progress and see where you can improve.</p>
+          </div>
+          <div class="feature-card">
+            <img src="img/progresstracker.jpg" alt="Progress Tracker">
+            <h3>Progress Tracker</h3>
+            <p>Monitor your learning journey with our robust progress tracker. Set goals, track your achievements, and stay motivated as you see your improvement over time.</p>
+          </div>
+          <div class="feature-card">
+            <img src="img/discussionforum.jpg" alt="Discussion Forum">
+            <h3>Discussion Forum</h3>
+            <p>Join our vibrant community in the discussion forum. Share ideas, ask questions, and collaborate with other learners and instructors to enhance your learning experience.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Best-Selling Subscriptions Section -->
+    <section class="best-selling-subscription">
+      <div class="container">
+        <h2>Best-Selling Subscription Packages</h2>
+        <div class="subscription-grid">
+          <div class="subscription-card">
+            <h3>Elite Scholar Package</h3>
+            <p>$29.99/month</p>
+            <ul>
+              <li>Unlimited access to all courses</li>
+              <li>Personalized tutoring</li>
+              <li>Progress tracking</li>
+              <li>Exclusive webinars</li>
+            </ul>
+          </div>
+          <div class="subscription-card">
+            <h3>Advanced Learner Package</h3>
+            <p>$19.99/month</p>
+            <ul>
+              <li>Access to selected courses</li>
+              <li>Group tutoring sessions</li>
+              <li>Basic progress tracking</li>
+              <li>Monthly study guides</li>
+            </ul>
+          </div>
+          <div class="subscription-card">
+            <h3>Essential Student Package</h3>
+            <p>$9.99/month</p>
+            <ul>
+              <li>Access to basic courses</li>
+              <li>Community support</li>
+              <li>Weekly progress updates</li>
+              <li>Discussion forums</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+      <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+          <h3 onclick="toggleFaq(this)">What is JeniusAcademy?</h3>
+          <div class="faq-answer">
+            <p>JeniusAcademy is an online learning platform offering a range of educational resources from elementary to college prep levels.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3 onclick="toggleFaq(this)">How can I register?</h3>
+          <div class="faq-answer">
+            <p>You can register by clicking on the Register page and filling out the required information.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3 onclick="toggleFaq(this)">What subscription packages do you offer?</h3>
+          <div class="faq-answer">
+            <p>We offer three main packages: Elite Scholar, Advanced Learner, and Essential Student. Each package includes different levels of access and support to suit your learning needs.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3 onclick="toggleFaq(this)">How can I contact customer support?</h3>
+          <div class="faq-answer">
+            <p>You can contact our customer support team through the Contact Us page or via email at support@jeniusacademy.com.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 JeniusAcademy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleFaq(element) {
+      var answer = element.nextElementSibling;
+      if (answer.style.display === "block") {
+        answer.style.display = "none";
+      } else {
+        answer.style.display = "block";
+      }
+    }
+  </script>
+</body>
+</html>
